@@ -8,6 +8,10 @@ We compare the rusults of the classic ML models corrections to SGP4 model such a
 ## USAGE INSTRUCTIONS:
 Here we use ILRS and TLE data during 2021-2022 period. All ILRS CPF predict can be downloaded for free from:
 - https://urs.earthdata.nasa.gov/oauth/authorize?client_id=gDQnv1IO0j9O2xXdwS8KMQ&response_type=code&redirect_uri=https%3A%2F%2Fcddis.nasa.gov%2Fproxyauth&state=aHR0cDovL2NkZGlzLm5hc2EuZ292L2FyY2hpdmUvc2xyL2NwZl9wcmVkaWN0cy8yMDIwL2dsb25hc3MxMDUv
+
 All ILRS CPF predict can be downloaded for free from:
 - https://celestrak.org/
 - https://www.space-track.org/auth/login
+(All these sources require registration in advance)
+
+As the experimental satellites we chose Glonass-105, TandemX and Terrasar. TLE and ILRS data for 2021-2022 can be found in this repository in  ~tle~ and ~cpf_predicts~ folders respectively.
