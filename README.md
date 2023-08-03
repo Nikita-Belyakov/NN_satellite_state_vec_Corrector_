@@ -14,8 +14,8 @@ All ILRS CPF predict can be downloaded for free from:
 - https://www.space-track.org/auth/login
 (All these sources require registration in advance)
 
-As the experimental satellites we chose Glonass-105, TandemX and Terrasar. TLE and ILRS data for 2021-2022 can be found in this repository in  `tle` and `cpf_predicts` folders respectively.
+As the experimental satellites we chose **Glonass-105, TandemX and Terrasar**. TLE and ILRS data for 2021-2022 can be found in this repository in  `tle` and `cpf_predicts` folders respectively. TLE data for these satellites and time period can stored in **3_LEO_df_TLE_2021_2022.csv** in this repository for more comfortable processing it.
 
-All needed code for fitting and testing models on these data can be found in `SGP_ILRS_data_corrector.ipynb` notebook as well as the code cells with MLP and classical ML RandomForest model accurateness comparison and state vectors plots in `J2000` CRS.
+All needed code for fitting and testing models on these data can be found in **SGP_ILRS_data_corrector.ipynb** notebook as well as the code cells with MLP and classical ML RandomForest model accurateness comparison and state vectors plots in `J2000` CRS.
 
-You can also get TLE data for any nedded active satellite and time period using `def get_tle_from_spacetrack` function in the `SGP_ILRS_data_corrector.ipynb` notebook, using your login and password in the arguments of this function.
+You can also get TLE data for any nedded active satellite and time period using `def get_tle_from_spacetrack()` function in the **SGP_ILRS_data_corrector.ipynb** notebook, using your login and password in the arguments of this function.
