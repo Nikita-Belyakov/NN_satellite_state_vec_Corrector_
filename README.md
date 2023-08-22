@@ -36,6 +36,7 @@ In the end of **SGP_ILRS_data_corrector.ipynb** notebook You can modify plots an
 
 ### References & useful articles:
 You can find all associated articles, used as inspairation for that project, in **references** folder in this repo.
+There is also all needed documantation and description for **ILRS** data format, used as the ground truth measurements in our project.
 Hope, it can help to understand the importance of the considered problem in more details
 
 ## Contacts
