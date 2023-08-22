@@ -6,6 +6,9 @@ ILRS data from ground stations provide very accurate state vectors evaluation wi
 Our approach consisits of making SGP4 model more accurate using ILRS state vectors on the same timestamps as the gt (ground truth) coordinates [x,y,z] for the spacecraft. As the CRS (coordinate reference system) we use all calculations on J2000 as one of hte most universal inertial (fixed) CRSs.
 We compare the rusults of the classic ML models corrections to SGP4 model such as Random Forest etc. with neural networks (MLP with several hidden layers) results to find the most siutable architecture for such roblem of SGP correction according ILRS gt data.
 ## USAGE INSTRUCTIONS:
+## First, install all required Python packages that are provided in requiremints.txt file in this repo!
+To setup all this libs just run this commnd in your terminal or code cell:
+- `!pip install -r requirements.txt`
 Here we use ILRS and TLE data during 2021-2022 period. All ILRS CPF predict can be downloaded for free from:
 - https://urs.earthdata.nasa.gov/oauth/authorize?client_id=gDQnv1IO0j9O2xXdwS8KMQ&response_type=code&redirect_uri=https%3A%2F%2Fcddis.nasa.gov%2Fproxyauth&state=aHR0cDovL2NkZGlzLm5hc2EuZ292L2FyY2hpdmUvc2xyL2NwZl9wcmVkaWN0cy8yMDIwL2dsb25hc3MxMDUv
 
@@ -18,4 +21,4 @@ As the experimental satellites we chose **Glonass-105, TandemX and Terrasar**. T
 
 All needed code for fitting and testing models on these data can be found in **SGP_ILRS_data_corrector.ipynb** notebook as well as the code cells with MLP and classical ML RandomForest model accurateness comparison and state vectors plots in `J2000` CRS.
 
-You can also get TLE data for any nedded active satellite and time period using `def get_tle_from_spacetrack()` function in the **SGP_ILRS_data_corrector.ipynb** notebook, using your login and password in the arguments of this function.
+You can also get TLE data for any needed active satellite and time period using `def get_tle_from_spacetrack()` function in the **SGP_ILRS_data_corrector.ipynb** notebook, using your login and password in the arguments of this function.
