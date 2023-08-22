@@ -1,5 +1,6 @@
-# NN_satellite_state_vec_Corrector_
+# NN_satellite_state_vec_Corrector
 <img src="./title-pic.png" width="800"/>
+
 ## TLE-to-state vector SGP4 model corrector via neural network according ILRS cpf predictions
 ## ABOUT:
 The project is dedicated to the problem of improving accuracy satellite's state vector evaluation from TLE (two-line-element) parameters. There are several models such as SGP4 and SGP8, available to determine satellite's state vector [x,y,z] from TLE with some errors up to 500 m that maybe to significant in some critical cases for spacecraft's safety.
