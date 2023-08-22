@@ -1,0 +1,15 @@
+astropy==5.1
+ipython==8.10.0
+jdcal==1.4.1
+julian==0.14
+matplotlib==3.7.0
+numpy==1.23.5
+pandas==1.5.3
+scikit_learn==1.2.1
+scipy==1.10.0
+sgp4==2.22
+skyfield==1.46
+spacetrack==1.0.1
+TLE_tools==0.2.3
+torch==2.0.1
+tqdm==4.64.1
