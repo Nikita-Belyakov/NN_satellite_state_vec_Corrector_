@@ -34,6 +34,10 @@ You can also get TLE data for any needed active satellite and time period using 
 
 In the end of **SGP_ILRS_data_corrector.ipynb** notebook You can modify plots and training pipelines as well as used models for TLE corrections and make your own research to impove result that we provide!
 
+### References & useful articles:
+You can find all associated articles, used as inspairation for that project, in **references** folder in this repo.
+Hope, it can help to understand the importance of the considered problem in more details
+
 ## Contacts
 You can leave all your questions, offers and commnets to Belyakov Nikita on E-mail or Telegram:
 - MSUBelyakovNV@yandex.ru
